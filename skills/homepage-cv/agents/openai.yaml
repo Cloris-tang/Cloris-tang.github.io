@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage CV"
+  short_description: "Maintain and verify homepage CV PDFs"
+  default_prompt: "Use $homepage-cv to update, compile, and verify the homepage CV PDFs."

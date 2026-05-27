@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Publications"
+  short_description: "Maintain publications and journal metadata"
+  default_prompt: "Use $homepage-publications to add or update homepage publication metadata."
