@@ -305,9 +305,7 @@ export default function PublicationsList({
     }, [publications]);
 
     const publicationStats = useMemo(() => {
-        const journalPublications = publications.filter(pub => pub.type === 'journal');
-
-        return journalPublications.reduce(
+        return publications.reduce(
             (stats, pub) => {
                 const authorshipCategory = getMyAuthorshipCategory(pub);
                 if (authorshipCategory === 'first-author') {
