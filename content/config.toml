@@ -1,29 +1,30 @@
 [site]
-title = "Zhe Chen"
-description = "Personal academic homepage of Zhe (Barry) Chen, Distinguished Postdoctoral Fellow at The Hong Kong Polytechnic University."
+title = "Hong Tang"
+description = "Personal academic homepage of Dr. Hong Tang, Research Assistant Professor at The Hong Kong Polytechnic University."
 favicon = "/favicon.svg"
-last_updated = "May 27, 2026"
+last_updated = "May 28, 2026"
 
 [author]
-name = "Zhe (Barry) Chen"
-title = "Distinguished Postdoctoral Fellow"
+name = "Hong Tang"
+title = "Research Assistant Professor"
 institution = "Department of Building Environment and Energy Engineering\nThe Hong Kong Polytechnic University"
 avatar = "/bio.jpg"
 
 [social]
-email = "zhechen@polyu.edu.hk"
+email = "honghong.tang@polyu.edu.hk"
+phone = "+86 17888831770"
 location = "Hong Kong"
 location_url = "https://maps.app.goo.gl/iZb4Sub8CxrE9XwX6"
 location_details = [
   "Room ZN1001, Block Z,",
-  "181 Chatham Road South,",
   "The Hong Kong Polytechnic University,",
-  "Hung Hom, Kowloon, Hong Kong"
+  "11 Yuk Choi Road, Hung Hom, Kowloon, Hong Kong"
 ]
-google_scholar = "https://scholar.google.com/citations?user=2qgIJwwAAAAJ&hl=zh-CN"
-orcid = "https://orcid.org/my-orcid?orcid=0000-0003-4715-5651"
+google_scholar = "https://scholar.google.com.hk/citations?user=nXW7KrwAAAAJ&hl=en"
+orcid = ""
 github = ""
-linkedin = "https://www.linkedin.com/in/zhe-chen-barry/"
+linkedin = ""
+researchgate = "https://www.researchgate.net/profile/Hong-Tang-17"
 
 [features]
 enable_likes = false
@@ -73,7 +74,7 @@ target = "services"
 href = "/services"
 
 [[navigation]]
-title = "CV"
+title = "Teaching"
 type = "page"
-target = "cv"
-href = "/cv"
+target = "teaching"
+href = "/teaching"

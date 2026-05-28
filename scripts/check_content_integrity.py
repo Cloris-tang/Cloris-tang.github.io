@@ -19,8 +19,8 @@ CONTENT_ZH_DIR = ROOT / "content_zh"
 PUBLIC_DIR = ROOT / "public"
 PUBLICATION_BIB = CONTENT_DIR / "publications.bib"
 CV_PDFS = [
-    PUBLIC_DIR / "cv" / "CV-Zhe-CHEN.pdf",
-    PUBLIC_DIR / "cv" / "CV-Zhe-CHEN-Chinese.pdf",
+    PUBLIC_DIR / "cv" / "CV-Hong-Tang.pdf",
+    PUBLIC_DIR / "cv" / "CV-Hong-Tang-Chinese.pdf",
 ]
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 

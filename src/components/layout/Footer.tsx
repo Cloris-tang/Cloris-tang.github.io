@@ -10,7 +10,7 @@ interface FooterProps {
   authorName?: string;
 }
 
-const homepageRepositoryUrl = 'https://github.com/zhechen06/zhechen06.github.io';
+const homepageRepositoryUrl = '';
 
 export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale = 'en', authorName }: FooterProps) {
   const locale = useLocaleStore((state) => state.locale);
@@ -30,14 +30,18 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
             {authorName ? (
               <>
                 ©{' '}
-                <a
-                  href={homepageRepositoryUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition-colors hover:text-ui-accent"
-                >
-                  {authorName}
-                </a>
+                {homepageRepositoryUrl ? (
+                  <a
+                    href={homepageRepositoryUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-colors hover:text-ui-accent"
+                  >
+                    {authorName}
+                  </a>
+                ) : (
+                  <span>{authorName}</span>
+                )}
                 {' | '}
               </>
             ) : null}

@@ -3,69 +3,67 @@ layout = "list"
 title = "邀请报告"
 
 [[items]]
-title = "Demand Response Detection and Capacity Prediction using Ensemble Learning"
-subtitle = "IEEE International Conference on Energy Technologies for Future Grids"
-date = "2025"
-content = "作为 FlexTrack Challenge 冠军受邀报告。Dec. 2025, Wollongong, Australia."
-
-[[items]]
-title = "Embarking on your research journey: My experience at PolyU BEEE"
-subtitle = "香港理工大学建筑环境及能源工程学系研究生迎新"
-date = "2025"
-content = "作为博士毕业生代表受邀报告。Sept. 2025, Hong Kong, China."
-
-[[items]]
-section = "会议报告"
-title = "A novel demand response detection and capacity prediction framework"
-subtitle = "Applied Energy Symposium: AIXEnergy"
+title = "Risk-aware optimization for resource aggregator in multi-layered markets"
+subtitle = "The 11th Asia Conference on Power and Electrical Engineering"
 date = "2026"
-content = "May 2026, Ningbo, China."
+content = "2026年4月，中国澳门。获最佳汇报奖。"
 
 [[items]]
-section = "会议报告"
-title = "Reliably estimating energy savings using data-driven models as the baseline"
-subtitle = "International Conference on Building and Simulation (BAS)"
+title = "Maximizing the value of building energy flexibility: from multi-layered market design to risk-aware optimization"
+subtitle = "The 10th International Conference on Energy and Environmental Science"
+date = "2026"
+content = "2026年3月，中国上海。"
+
+[[items]]
+title = "Stackelberg game-based interactive flexibility provision scheme for demand-side management"
+subtitle = "The 14th International Conference on Renewable Power Generation"
 date = "2025"
-content = "July 2025, Borlänge, Sweden."
+content = "2025年10月，中国上海。"
 
 [[items]]
-section = "会议报告"
-title = "Robust comparison of optimization algorithms for optimal chiller loading"
-subtitle = "International Conference on Sustainable Development in Building and Environment (SuDBE)"
+title = "Chance-constrained dispatch optimization considering probabilistic prediction of renewable generation and interactive flexibility engagement of building"
+subtitle = "CUE2025-Applied Energy Symposium and Forum"
+date = "2025"
+content = "2025年7月，日本北九州。"
+
+[[items]]
+title = "Flexible control and supply-demand coordinated optimization of building energy systems towards carbon neutrality"
+subtitle = "The 13th Sustainable Development in the Building and Environment International Conference"
+date = "2025"
+content = "2025年8月，英国剑桥。"
+
+[[items]]
+title = "A flexibility engagement scheme for unlocking the building energy flexibility in electricity markets"
+subtitle = "The 13th International Symposium on Heating, Ventilation and Air Conditioning"
 date = "2023"
-content = "Aug. 2023, Espoo, Finland."
+content = "2023年11月，中国北京。"
 
 [[items]]
-section = "会议报告"
-title = "Similarity learning-based FDD in building HVAC systems"
-subtitle = "The 3rd International Conference for Global Chinese Academia on Energy and Built Environment International (CEBE)"
+title = "Stackelberg game-based flexibility provision scheme for demand-side management"
+subtitle = "The 11th Sustainable Development in the Building and Environment International Conference"
 date = "2023"
-content = "July 2023, Shanghai, China."
+content = "2023年8月，芬兰埃斯波。"
 
 [[items]]
-section = "会议报告"
-title = "Interpretable machine learning for AHU fault detection and diagnosis: Rule extraction from black-box models"
-subtitle = "The 14th International Conference on Applied Energy (ICAE)"
+title = "Energy efficient and flexible buildings to achieve low carbon development in high density cities"
+subtitle = "APEC Energy Forum 2022 - Low Carbon and Green Campus Wisdom Action"
 date = "2022"
-content = "Aug. 2022, Bochum, Germany."
+content = "2022年11月，中国香港。"
 
 [[items]]
-section = "会议报告"
-title = "Quantifying HVAC electrical flexibility from building thermal mass: a case study of the DOE reference building"
-subtitle = "The 16th ROOMVENT Conference (ROOMVENT)"
+title = "Interactive scheme for demand-side management in electricity markets of multiple services"
+subtitle = "The 14th International Conference on Applied Energy"
 date = "2022"
-content = "Sept. 2022, Xi'an, China."
+content = "2022年8月，德国波鸿。"
 
 [[items]]
-section = "会议报告"
-title = "A multi-objective optimization-based load scheduling approach for demand response in smart grid"
-subtitle = "The 2nd International Conference for Global Chinese Academia on Energy and Built Environment International (CEBE)"
-date = "2021"
-content = "July 2021, Chengdu, China."
+title = "Optimal dispatch strategy for building aggregators to fully utilize the energy flexibilities"
+subtitle = "The 14th REHVA HVAC World Congress Conference"
+date = "2022"
+content = "2022年5月，荷兰鹿特丹。"
 
 [[items]]
-section = "会议报告"
-title = "A peer-to-peer electricity system and its simulation"
-subtitle = "The 4th Asia Conference of International Building Performance Simulation Association (ASIM)"
+title = "Study on the Optimization of PCM Integrated Air-Conditioning Duct for the Demand Shifting"
+subtitle = "The 4th Asia Conference of International Building Performance Simulation Association"
 date = "2018"
-content = "Dec. 2018, Hong Kong, China."
+content = "2018年12月，中国香港。"

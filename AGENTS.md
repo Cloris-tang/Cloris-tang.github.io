@@ -35,7 +35,7 @@ Use this table first when deciding which file to edit. Do not treat generated bu
 | News | `content/news.toml`, `content_zh/news.toml` | `public/` | `/news` |
 | Talks | `content/talks.toml`, `content_zh/talks.toml` | `public/` | `/talks` |
 | Services | `content/services.toml`, `content_zh/services.toml` | `public/` | `/services` |
-| CV | `public/cv/CV-Zhe-CHEN.tex`, `public/cv/CV-Zhe-CHEN-Chinese.tex` | `public/cv/` | `/cv`, `/zh/cv` |
+| CV | `public/cv/CV-Hong-Tang.tex`, `public/cv/CV-Hong-Tang-Chinese.tex` | `public/cv/` | `/cv`, `/zh/cv` |
 
 ## Python And Scripts
 

@@ -1,5 +1,5 @@
 type = "pdf"
 title = "CV"
 hide_title = true
-description = "Inline PDF version of my curriculum vitae."
-source = "/cv/CV-Zhe-CHEN.pdf"
+description = "Inline PDF version of Hong Tang's curriculum vitae."
+source = "/cv/CV-Hong-Tang.pdf"

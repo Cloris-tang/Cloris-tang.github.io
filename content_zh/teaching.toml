@@ -1,0 +1,34 @@
+type = "card"
+layout = "list"
+title = "教学"
+description = "课程教学与教学活动。"
+
+[[items]]
+title = "Engineering Intelligent Buildings"
+subtitle = "课程负责人"
+date = "2026"
+content = "担任 Engineering Intelligent Buildings 课程负责人。"
+
+[[items]]
+title = "Construction and Environmental Professionals in Society"
+subtitle = "课程负责人"
+date = "2025"
+content = "担任 Construction and Environmental Professionals in Society 课程负责人。"
+
+[[items]]
+title = "Engineering Intelligent Buildings"
+subtitle = "课程助教"
+date = "2018-2025"
+content = "担任 Engineering Intelligent Buildings 课程助教。"
+
+[[items]]
+title = "Advanced Energy Technologies and Analytics"
+subtitle = "课程助教"
+date = "2021-2025"
+content = "担任 Advanced Energy Technologies and Analytics 课程助教。"
+
+[[items]]
+title = "Electrical Installations I 与实验教学"
+subtitle = "实验指导"
+date = "2020-2021"
+content = "承担 Electrical Installations I、Validity of Lumen Method of Design 及 Testing of Polyphase Induction Motors 等实验指导。"

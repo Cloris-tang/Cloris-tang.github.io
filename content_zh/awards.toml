@@ -1,108 +1,51 @@
 type = "card"
 title = "获奖与荣誉"
-description = "主要奖项、荣誉与竞赛成果。"
+description = "主要奖项、荣誉、奖学金与会议报告奖励。"
 
 [[items]]
-id = "flextrack-challenge"
-title = "冠军，FlexTrack Challenge"
-subtitle = "IEEE International Conference on Energy Technologies for Future Grids"
-date = "2025"
-content = "国际建筑能源灵活性预测挑战赛排名 1/610，奖金 AU$10,000。 [来源](https://www.aicrowd.com/challenges/flextrack-challenge-2025/winners)"
-tags = ["竞赛"]
-image = "/awards/flextrack-challenge.jpg"
+id = "apcee-best-presentation"
+title = "最佳汇报奖"
+subtitle = "The 11th Asia Conference on Power and Electrical Engineering"
+date = "2026"
+content = "凭报告“Risk-aware optimization for resource aggregator in multi-layered markets”获奖，地点为中国澳门。"
+tags = ["会议奖励"]
 
 [[items]]
-id = "fce-outstanding-phd-theses"
-title = "建设及环境学院杰出博士论文奖"
+id = "asim-best-poster"
+title = "最佳墙报奖"
+subtitle = "The 4th Asia Conference of International Building Performance Simulation Association"
+date = "2018"
+content = "凭墙报“Experimental Study on the Demand Shifting Effects of PCM Integrated Air-Conditioning Duct”获奖，地点为中国香港。"
+tags = ["会议奖励"]
+
+[[items]]
+id = "postdoctoral-fellowship"
+title = "博士后匹配基金计划"
 subtitle = "香港理工大学"
-date = "2025"
-content = "获评前 2.5% 的博士论文。 [来源](https://www.polyu.edu.hk/beee/news-and-events/news/2025/20250827--beees-phd-student-selected-for-the-fce-awards-for-outstanding-phd-theses/)"
-tags = ["学术荣誉"]
-image = "/awards/fce-outstanding-thesis.jpg"
+date = "2023-2025"
+content = "博士后研究期间获得香港理工大学博士后匹配基金计划资助。"
+tags = ["奖学金"]
 
 [[items]]
-title = "杰出博士后研究员资助"
+id = "phd-studentship"
+title = "博士奖学金"
 subtitle = "香港理工大学"
-date = "2025"
-content = "入选香港理工大学杰出博士后研究员计划。"
-tags = ["学术荣誉"]
+date = "2018-2022"
+content = "博士研究期间获得香港理工大学博士奖学金。"
+tags = ["奖学金"]
 
 [[items]]
-id = "adapen-highly-cited-paper-award"
-title = "高被引论文奖"
-subtitle = "Advances in Applied Energy"
-date = "2024"
-content = "表彰该期刊2023年发表论文中被引次数最高论文。 [来源](https://research.polyu.edu.hk/en/prizes/highly-cited-paper-award-2024-by-advances-in-applied-energy/)"
-tags = ["论文认可"]
-image = "/awards/adapen-highly-cited.jpg"
-
-[[items]]
-id = "gba-data-ai"
-title = "冠军，第一届粤港澳大湾区数据应用创新大赛"
-subtitle = "深圳市发展和改革委员会"
-date = "2023"
-content = "获得一等奖，奖金 CN¥100,000。 [来源 1](https://www.polyu.edu.hk/rio/news/2023/20231228---the-first-greater-bay-area-data-application-innovation-competition/) [来源 2](https://www.jdonline.com.hk/content_84766.html)"
+id = "tsinghua-creative-competition"
+title = "清华大学第六届创意大赛二等奖"
+subtitle = "清华大学"
+date = "2017"
+content = "获得清华大学第六届创意大赛二等奖。"
 tags = ["竞赛"]
-image = "/awards/gba-data-ai.jpg"
 
 [[items]]
-title = "冠军，施耐德电气AI大施杯算法竞赛"
-subtitle = "施耐德电气"
-date = "2023"
-content = "智能楼宇能耗预测赛排名 1/331。 [来源](https://www.china5e.com/news/news-1153321-1.html)"
-tags = ["竞赛"]
-image = "/awards/schneider-ai-master-cup.jpg"
-
-[[items]]
-id = "unilab-smart-energy"
-title = "冠军，UNiLAB智慧能源系统算法竞赛"
-subtitle = "UNiLAB - Big Data Analytics for Smart Energy Systems"
-date = "2023"
-content = "智慧能源系统大数据分析赛排名 1/513。 [来源](https://tianchi.aliyun.com/competition/entrance/532022/rankingList?lang=zh-cn)"
-tags = ["竞赛"]
-image = "/awards/unilab-smart-energy.jpg"
-
-[[items]]
-title = "ESI热点论文和高被引论文"
-subtitle = "Journal Citation Reports"
-date = "2023"
-content = "通讯作者论文关于建筑能耗预测中的物理模型和数据驱动模型综述获ESI热点论文和高被引论文认可。"
-tags = ["论文认可"]
-
-[[items]]
-title = "杰出控制奖"
-subtitle = "第21届MDV中央空调设计应用大赛"
-date = "2023"
-content = "获美的楼宇科技颁发杰出控制奖。 [来源](https://biz.co188.com/content_info_62864555_1.html)"
-tags = ["竞赛"]
-image = "/awards/mdv-control-award.jpg"
-
-[[items]]
-title = "Eni Award 2023 提名"
-subtitle = "第一作者需求响应调度论文"
-date = "2022"
-content = "第一作者论文获国际埃尼奖 Eni Award 2023 提名。 [来源 1](https://en.usst.edu.cn/info/1061/2558.htm) [来源 2](https://shlgwm.usst.edu.cn/_t246/2022/1031/c4764a297289/page.htm)"
-tags = ["论文认可"]
-
-[[items]]
-title = "冠军，i-Space: VRAR Contest 2021/22"
-subtitle = "香港理工大学"
-date = "2022"
-content = "项目名称：AR-enabled Smart Building Energy Management Platform。 [来源](https://www.lib.polyu.edu.hk/publications/2022/09/vr_ar_contest/)"
-tags = ["竞赛"]
-image = "/awards/vrar-contest.jpg"
-
-[[items]]
-title = "银奖，国际建筑机电人工智能挑战赛"
-subtitle = "香港机电工程署"
-date = "2022"
-content = "在建筑机电设施人工智能挑战赛中获银奖。 [来源](https://www.globalaichallenge.com/)"
-tags = ["竞赛"]
-image = "/awards/global-ai-challenge.jpg"
-
-[[items]]
-title = "校长卓越博士生奖学金计划"
-subtitle = "香港理工大学"
-date = "2021"
-content = "博士入学阶段获香港理工大学校长卓越博士生奖学金。"
-tags = ["学术荣誉"]
+id = "aedas-scholarship"
+title = "Aedas科创二等奖学金"
+subtitle = "清华大学建筑学院"
+date = "2017"
+content = "获得清华大学建筑学院 Aedas 科创二等奖学金。"
+tags = ["奖学金"]

@@ -19,7 +19,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "content" / "config.toml"
 OUTPUT_DIR = ROOT / "google-scholar-stats"
-DEFAULT_REPOSITORY = "zhechen06/zhechen06.github.io"
+DEFAULT_REPOSITORY = ""
 FETCH_ATTEMPTS = int(os.environ.get("SCHOLAR_FETCH_ATTEMPTS", "3"))
 FETCH_TIMEOUT_SECONDS = float(os.environ.get("SCHOLAR_FETCH_TIMEOUT_SECONDS", "12"))
 FREE_PROXY_TIMEOUT_SECONDS = float(os.environ.get("SCHOLAR_FREE_PROXY_TIMEOUT_SECONDS", "35"))
@@ -109,7 +109,11 @@ def previous_stats_url() -> str:
     if env_url:
         return env_url
 
-    repository = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPOSITORY)
+    repository = os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPOSITORY).strip()
+    if not repository:
+        raise RuntimeError(
+            "Set GOOGLE_SCHOLAR_STATS_FALLBACK_URL or GITHUB_REPOSITORY to fetch previous stats."
+        )
     return f"https://cdn.jsdelivr.net/gh/{repository}@google-scholar-stats/gs_data.json"
 
 

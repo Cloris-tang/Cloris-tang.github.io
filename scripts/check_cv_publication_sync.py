@@ -18,16 +18,17 @@ from update_publication_ranks import BibEntry, parse_bib_entries
 
 
 DEFAULT_BIB = Path("content/publications.bib")
-DEFAULT_EN_CV = Path("public/cv/CV-Zhe-CHEN.tex")
-DEFAULT_ZH_CV = Path("public/cv/CV-Zhe-CHEN-Chinese.tex")
-SELF_NAMES = {"zhe chen", "chen zhe"}
+DEFAULT_EN_CV = Path("public/cv/CV-Hong-Tang.tex")
+DEFAULT_ZH_CV = Path("public/cv/CV-Hong-Tang-Chinese.tex")
+SELF_NAMES = {"hong tang", "tang hong"}
 NAME_OVERRIDES = {
     "Gu Jiefan": "Gu J",
     "Xu Peng": "Xu P",
     "Pang Zhihong": "Pang Z",
     "Chen Yongbao": "Chen Y",
     "Ji Ying": "Ji Y",
-    "Chen Zhe": r"\me{Chen Z}",
+    "Tang Hong": r"\me{Tang H}",
+    "Hong Tang": r"\me{Tang H}",
 }
 
 
@@ -135,7 +136,7 @@ def format_author(raw_name: str) -> str:
     if base_name in NAME_OVERRIDES:
         return NAME_OVERRIDES[base_name] + marker
     if base_name.lower() in SELF_NAMES:
-        return r"\me{Chen Z}" + marker
+        return r"\me{Tang H}" + marker
 
     parts = base_name.split()
     if len(parts) < 2:

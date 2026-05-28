@@ -1,18 +1,18 @@
 [site]
-title = "陈喆"
-description = "陈喆的个人学术主页，香港理工大学校长杰出博士后。"
-last_updated = "2026年5月27日"
+title = "唐虹"
+description = "唐虹的个人学术主页，香港理工大学助理教授（研究）。"
+last_updated = "2026年5月28日"
 
 [author]
-name = "陈喆"
-title = "校长杰出博士后"
-institution = "香港理工大学\n建筑环境及能源工程学系"
+name = "唐虹"
+title = "助理教授（研究）"
+institution = "香港理工大学\n建筑环境与能源工程学系"
 
 [social]
 location = "香港"
 location_details = [
-  "香港九龙红磡漆咸道南181号",
-  "香港理工大学Z座ZN1001室"
+  "香港九龙红磡香港理工大学",
+  "Z座ZN1001室"
 ]
 
 [[navigation]]
@@ -46,7 +46,7 @@ target = "services"
 href = "/services"
 
 [[navigation]]
-title = "简历"
+title = "教学"
 type = "page"
-target = "cv"
-href = "/cv"
+target = "teaching"
+href = "/teaching"

@@ -6,87 +6,63 @@ hide_title = true
 [[items]]
 section = "Journal Service"
 title = "Young Editorial Board Member"
-content = "Young Editorial Board member, [*Carbon Neutrality*](https://link.springer.com/journal/43979) (IF: 12.5)."
-image = "/services/carbon-neutrality-young-editorial-board.jpg"
+content = "Young Editorial Board member, *The Innovation Energy Use*."
 
 [[items]]
 section = "Journal Service"
-title = "Guest Editor, Special Issue"
-content = "Guest editor for the *Buildings* special issue [Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control](https://www.mdpi.com/journal/buildings/special_issues/4B12E57H42)."
-image = "/services/buildings-editor-certificate.jpg"
+title = "Guest Editor"
+content = "Guest editor for *Energy*, *Building Simulation*, *Buildings*, *Architecture*, *Journal of Physics: Conference Series*, and *Journal of Building Design and Environment*."
 
 [[items]]
 section = "Journal Service"
 title = "Peer Reviewer"
-content = "*Applied Energy*, *Energy Conversion and Management*, *Journal of Cleaner Production*, *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Computers in Industry*, *Energy*, *Building and Environment*, *Applied Thermal Engineering*, *Energy and Buildings*, *Building Simulation*, *iScience*."
+content = "Reviewer for *Building Simulation*, *Applied Energy*, *Engineering*, *Energy Conversion and Management*, *Energy*, *Energy and Buildings*, *Energy Policy*, *Journal of Energy Storage*, *Sustainable Energy, Grids and Networks*, *HKIE Transactions*, and other SCI journals."
 
 [[items]]
 section = "Conference Service"
-title = "Session Chair, DIES 2026"
-subtitle = "International Conference on Digital Intelligence for Energy Systems"
-date = "2026"
-content = "Session chair for the 2nd International Conference on Digital Intelligence for Energy Systems, October 2026, Wollongong, Australia."
+title = "Scientific Secretary"
+subtitle = "The First International Conference on Digital Intelligence for Energy Systems"
+date = "2025"
+content = "Scientific secretary for ICDIES, Hong Kong, China."
 
 [[items]]
 section = "Conference Service"
-title = "Session Chair, AIXEnergy 2026"
-subtitle = "Applied Energy Symposium: AIXEnergy"
-date = "2026"
-content = "Session chair for Applied Energy Symposium: AIXEnergy, May 2026, Ningbo, China."
-image = "/services/aixenergy-2026.jpg"
+title = "Technical Publication Committee Member"
+subtitle = "IEEE 7th Student Conference on Electric Machines and Systems"
+date = "2025"
+content = "Technical publication committee member for IEEE SCEMS, Macau, China."
 
 [[items]]
-section = "Professional Memberships"
-title = "Member"
-subtitle = "International Building Performance Simulation Association (IBPSA)"
-date = "Ongoing"
-content = "Member of the International Building Performance Simulation Association."
-
-[[items]]
-section = "Professional Memberships"
-title = "Member"
-subtitle = "International Society of Energy and Built Environment (ISEBE)"
-date = "Ongoing"
-content = "Member of the International Society of Energy and Built Environment."
+section = "Conference Service"
+title = "Session Chair"
+subtitle = "CUE2025-Applied Energy Symposium and Forum"
+date = "2025"
+content = "Session chair for CUE2025 in Kitakyushu, Japan."
 
 [[items]]
 section = "Research Projects"
-title = "Smart and Scalable Data-driven Management Technologies for Building HVAC Systems towards Carbon Neutrality"
-subtitle = "PolyU Distinguished Postdoctoral Fellowship Scheme"
+title = "Large-scale Flexible Control and Supply-demand Coordinated Optimization of Integrated Energy Systems towards Carbon Neutrality"
+subtitle = "The Hong Kong Polytechnic University Start-up Fund"
 date = "2025-2027"
-content = "Funding: HK$841,040. Project ID: P0053872. Role: Fellowship Awardee."
+content = "Principal investigator. Funding: HK$300,000."
 
 [[items]]
 section = "Research Projects"
-title = "Smart Data-Driven Building Management Framework for Environmental and Sustainability Applications"
-subtitle = "Innovation and Technology Fund of Hong Kong"
-date = "2022-2024"
-content = "Project ID: ITP/002/22LP. Role: lead researcher for demonstration of data-driven building management technologies in large buildings."
+title = "Study on systematic quantification method, design and control optimization of energy-efficient and grid-responsive buildings"
+subtitle = "The Hong Kong Polytechnic University Postdoc Matching Fund Scheme"
+date = "2023-2025"
+content = "Principal investigator. Funding: HK$365,000."
 
 [[items]]
 section = "Research Projects"
-title = "Smart Energy Management Technologies for Complex Building Energy Systems in High-Density Cities"
-subtitle = "National Key Research and Development Program of China"
-date = "2021-2024"
-content = "Project ID: 2021YFE0107400. Role: lead researcher for data-driven modelling and optimization for building energy systems."
+title = "Model-data hybrid rapid evaluation method for building energy flexibility"
+subtitle = "China Southern Power Grid"
+date = "2024-2026"
+content = "Key researcher. Funding: RMB 2.3867 million."
 
 [[items]]
 section = "Research Projects"
-title = "Distributed Integrated Energy System Joint Simulation Technologies"
-subtitle = "National Key Research and Development Program of China"
-date = "2017-2021"
-content = "Project ID: 2017YFB0903404. Role: lead researcher for distributed integrated energy system modeling."
-
-[[items]]
-section = "Teaching"
-title = "BSE3716 & BSE4726 Capstone Research Project"
-subtitle = "Undergraduate project advising"
-date = "2025-2026"
-content = "Advising six undergraduate students on capstone research projects."
-
-[[items]]
-section = "Teaching"
-title = "BSE3713 & BSE4725 Capstone Research Project"
-subtitle = "Undergraduate project advising"
-date = "2023-2024"
-content = "Advised two undergraduate students on capstone research projects."
+title = "Research and demonstration of high-efficiency building energy-saving and power flexibility technologies"
+subtitle = "Shenzhen Science and Technology Innovation Commission"
+date = "2023-2025"
+content = "Key researcher. Funding: RMB 5.10 million."

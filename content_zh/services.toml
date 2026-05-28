@@ -6,87 +6,63 @@ hide_title = true
 [[items]]
 section = "期刊服务"
 title = "青年编委"
-content = "[*Carbon Neutrality*](https://link.springer.com/journal/43979) 青年编委（IF: 12.5）。"
-image = "/services/carbon-neutrality-young-editorial-board.jpg"
+content = "*The Innovation Energy Use* 青年编委。"
 
 [[items]]
 section = "期刊服务"
-title = "特刊客座编辑"
-content = "*Buildings* 特刊 [Smart and Sustainable Buildings: Advancing towards Net-Zero and Intelligent Control](https://www.mdpi.com/journal/buildings/special_issues/4B12E57H42) 客座编辑。"
-image = "/services/buildings-editor-certificate.jpg"
+title = "客座编辑"
+content = "担任 *Energy*、*Building Simulation*、*Buildings*、*Architecture*、*Journal of Physics: Conference Series* 与 *Journal of Building Design and Environment* 客座编辑。"
 
 [[items]]
 section = "期刊服务"
 title = "期刊审稿人"
-content = "受邀担任多个国际期刊审稿人，包括 *Applied Energy*, *Energy Conversion and Management*, *Journal of Cleaner Production*, *Advanced Engineering Informatics*, *Engineering Applications of Artificial Intelligence*, *Computers in Industry*, *Energy*, *Building and Environment*, *Applied Thermal Engineering*, *Energy and Buildings*, *Building Simulation*, *iScience*。"
+content = "受邀担任 *Building Simulation*、*Applied Energy*、*Engineering*、*Energy Conversion and Management*、*Energy*、*Energy and Buildings*、*Energy Policy*、*Journal of Energy Storage*、*Sustainable Energy, Grids and Networks*、*HKIE Transactions* 等 SCI 期刊审稿人。"
 
 [[items]]
 section = "会议服务"
-title = "分会主席，DIES 2026"
-subtitle = "International Conference on Digital Intelligence for Energy Systems"
-date = "2026"
-content = "担任第二届数字智能能源系统国际会议分会主席。Oct. 2026, Wollongong, Australia."
+title = "科研秘书长"
+subtitle = "The First International Conference on Digital Intelligence for Energy Systems"
+date = "2025"
+content = "担任 ICDIES 科研秘书长，地点为中国香港。"
 
 [[items]]
 section = "会议服务"
-title = "分会主席，AIXEnergy 2026"
-subtitle = "Applied Energy Symposium: AIXEnergy"
-date = "2026"
-content = "担任 Applied Energy Symposium: AIXEnergy 分会主席。May 2026, Ningbo, China."
-image = "/services/aixenergy-2026.jpg"
+title = "技术出版委员会成员"
+subtitle = "IEEE 7th Student Conference on Electric Machines and Systems"
+date = "2025"
+content = "担任 IEEE SCEMS 技术出版委员会成员，地点为中国澳门。"
 
 [[items]]
-section = "协会会员"
-title = "会员"
-subtitle = "International Building Performance Simulation Association (IBPSA)"
-date = "进行中"
-content = "国际建筑性能模拟协会会员。"
-
-[[items]]
-section = "协会会员"
-title = "会员"
-subtitle = "International Society of Energy and Built Environment (ISEBE)"
-date = "进行中"
-content = "国际能源与建筑环境学会会员。"
+section = "会议服务"
+title = "分会场主席"
+subtitle = "CUE2025-Applied Energy Symposium and Forum"
+date = "2025"
+content = "担任 CUE2025 分会场主席，地点为日本北九州。"
 
 [[items]]
 section = "科研项目"
-title = "面向碳中和的建筑暖通空调系统智能化与可扩展数据驱动管理技术研发"
-subtitle = "香港理工大学杰出博士后研究员计划"
+title = "面向碳中和的大规模综合能源系统柔性控制与供需协同优化"
+subtitle = "香港理工大学专项启动基金"
 date = "2025-2027"
-content = "经费：HK$841,040。项目编号：P0053872。承担内容：获资助博士后研究。"
+content = "主持。经费：30万港币。"
 
 [[items]]
 section = "科研项目"
-title = "智能数据推动楼宇管理架构应用于环境保护及可持续发展"
-subtitle = "香港特别行政区创新及科技基金"
-date = "2022-2024"
-content = "项目编号：ITP/002/22LP。承担内容：大型建筑数据驱动管理技术示范研究。"
+title = "高效节能与电网友好建筑系统化量化、设计与控制优化研究"
+subtitle = "香港理工大学博士后匹配基金计划"
+date = "2023-2025"
+content = "主持。经费：36.5万港币。"
 
 [[items]]
 section = "科研项目"
-title = "高密度城市中建筑综合能源系统的智能管理技术研发"
-subtitle = "国家重点研发计划"
-date = "2021-2024"
-content = "项目编号：2021YFE0107400。承担内容：建筑能源系统数据驱动建模与优化研究。"
+title = "面向工程化可实施需求的模型数据混合驱动的建筑能源柔性快速评估方法"
+subtitle = "中国南方电网有限责任公司科技项目"
+date = "2024-2026"
+content = "主研。经费：238.67万元。"
 
 [[items]]
 section = "科研项目"
-title = "分布式综合能源系统联合仿真技术"
-subtitle = "国家重点研发计划"
-date = "2017-2021"
-content = "项目编号：2017YFB0903404。承担内容：分布式综合能源系统建模研究。"
-
-[[items]]
-section = "教学指导"
-title = "BSE3716 & BSE4726 Capstone Research Project"
-subtitle = "学生指导"
-date = "2025-2026"
-content = "指导6名本科生完成毕业设计研究。"
-
-[[items]]
-section = "教学指导"
-title = "BSE3713 & BSE4725 Capstone Research Project"
-subtitle = "学生指导"
-date = "2023-2024"
-content = "指导2名本科生开展毕业设计研究。"
+title = "建筑高效节能及电力柔性技术研究与应用示范"
+subtitle = "深圳市科技创新委员会可持续发展专项项目"
+date = "2023-2025"
+content = "主研。经费：510万元。"

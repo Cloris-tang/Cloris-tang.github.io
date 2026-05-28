@@ -1,10 +1,12 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 import { PdfPageConfig } from '@/types/page';
 
 export default function PdfPage({ config, embedded = false }: { config: PdfPageConfig; embedded?: boolean }) {
     const showHeader = !config.hide_title && Boolean(config.title || config.description);
+    const openPdfLabel = config.title.includes('中文') ? '打开 PDF' : 'Open PDF';
 
     return (
         <motion.div
@@ -25,6 +27,18 @@ export default function PdfPage({ config, embedded = false }: { config: PdfPageC
                     )}
                 </div>
             )}
+
+            <div className="mx-auto flex w-[84%] justify-end">
+                <a
+                    href={config.source}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-md border border-neutral-200 bg-white px-3 py-2 text-sm font-medium text-ui-body shadow-sm transition-colors hover:border-ui-accent hover:text-ui-accent dark:border-neutral-800 dark:bg-neutral-900"
+                >
+                    <ArrowTopRightOnSquareIcon className="h-4 w-4" aria-hidden="true" />
+                    {openPdfLabel}
+                </a>
+            </div>
 
             <div className="mx-auto aspect-[210/289] w-[84%] overflow-hidden rounded-lg border border-neutral-200 bg-white shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
                 <object

@@ -1,6 +1,6 @@
 ---
 name: homepage-cv
-description: "Maintain homepage CV sources and PDFs. Use when editing public/cv/CV-Zhe-CHEN.tex or public/cv/CV-Zhe-CHEN-Chinese.tex, regenerating CV PDFs, adding PDF outlines or bookmarks, syncing publication entries into the CV, checking CV footer dates, or verifying the CV pages."
+description: "Maintain homepage CV sources and PDFs. Use when editing public/cv/CV-Hong-Tang.tex or public/cv/CV-Hong-Tang-Chinese.tex, regenerating CV PDFs, adding PDF outlines or bookmarks, syncing publication entries into the CV, checking CV footer dates, or verifying the CV pages."
 ---
 
 # Homepage CV
@@ -12,11 +12,11 @@ Use this skill for CV source edits and PDF regeneration. Always treat the Englis
 ## Preflight
 
 - Inspect both source files before editing:
-  - `public/cv/CV-Zhe-CHEN.tex`
-  - `public/cv/CV-Zhe-CHEN-Chinese.tex`
+  - `public/cv/CV-Hong-Tang.tex`
+  - `public/cv/CV-Hong-Tang-Chinese.tex`
 - Confirm the CV pages still point to the expected PDF paths:
-  - `content/cv.toml`: `/cv/CV-Zhe-CHEN.pdf`
-  - `content_zh/cv.toml`: `/cv/CV-Zhe-CHEN-Chinese.pdf`
+  - `content/cv.toml`: `/cv/CV-Hong-Tang.pdf`
+  - `content_zh/cv.toml`: `/cv/CV-Hong-Tang-Chinese.pdf`
 - For publication-related CV edits, first run or inspect the output from:
 
 ```bash
@@ -35,8 +35,8 @@ npm run cv:publication-sync-check
   - English: `Last updated: Month DD, YYYY`
   - Chinese: `最近更新：YYYY年M月D日`
 - Keep output PDF filenames unchanged:
-  - `public/cv/CV-Zhe-CHEN.pdf`
-  - `public/cv/CV-Zhe-CHEN-Chinese.pdf`
+  - `public/cv/CV-Hong-Tang.pdf`
+  - `public/cv/CV-Hong-Tang-Chinese.pdf`
 
 ### Add Or Maintain PDF Outlines
 
@@ -51,8 +51,8 @@ npm run cv:publication-sync-check
 
 ```bash
 cd public/cv
-tectonic CV-Zhe-CHEN.tex
-tectonic CV-Zhe-CHEN-Chinese.tex
+tectonic CV-Hong-Tang.tex
+tectonic CV-Hong-Tang-Chinese.tex
 ```
 
 - Treat fatal LaTeX errors as blockers.
@@ -69,8 +69,8 @@ from pathlib import Path
 from pypdf import PdfReader
 
 for path in [
-    Path("public/cv/CV-Zhe-CHEN.pdf"),
-    Path("public/cv/CV-Zhe-CHEN-Chinese.pdf"),
+    Path("public/cv/CV-Hong-Tang.pdf"),
+    Path("public/cv/CV-Hong-Tang-Chinese.pdf"),
 ]:
     reader = PdfReader(str(path))
     root = reader.trailer["/Root"]

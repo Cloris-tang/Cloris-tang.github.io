@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://zhechen06.github.io/sitemap.xml

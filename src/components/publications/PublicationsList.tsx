@@ -38,7 +38,7 @@ const validAuthorshipFilters: AuthorshipFilter[] = ['first-author', 'correspondi
 const validQuartileFilters: QuartileFilter[] = ['Q1', 'Q2', 'Q3', 'Q4'];
 const validImpactFactorFilters: ImpactFactorFilter[] = ['lt-5', '5-10', 'gt-10'];
 
-const googleScholarStatsUrl = 'https://cdn.jsdelivr.net/gh/zhechen06/zhechen06.github.io@google-scholar-stats/gs_data.json';
+const googleScholarStatsUrl = '';
 
 const passiveTagClass = "inline-flex max-w-full items-center rounded-md border border-transparent bg-neutral-100 px-3 py-1 text-left text-xs font-medium leading-snug text-ui-body dark:border-white/15 dark:bg-white/15 dark:text-slate-50";
 
@@ -176,6 +176,8 @@ export default function PublicationsList({
     const hasNarrowedResults = hasActiveFilterSelection || searchQuery.trim().length > 0;
 
     useEffect(() => {
+        if (!googleScholarStatsUrl) return;
+
         let isMounted = true;
         const cacheKey = new Date().toISOString().slice(0, 13);
 

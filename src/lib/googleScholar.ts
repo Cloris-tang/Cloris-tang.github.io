@@ -4,7 +4,7 @@ import path from 'node:path';
 import type { ScholarMetrics } from '@/types/page';
 
 export const GOOGLE_SCHOLAR_STATS_URL =
-  'https://cdn.jsdelivr.net/gh/zhechen06/zhechen06.github.io@google-scholar-stats/gs_data.json';
+  '';
 
 const metricsCache = new Map<string, Promise<ScholarMetrics | null>>();
 
@@ -80,6 +80,9 @@ async function fetchGoogleScholarMetrics(profileUrl: string): Promise<ScholarMet
     return parseScholarMetrics(rawStats, profileUrl);
   } catch {
     try {
+      if (!GOOGLE_SCHOLAR_STATS_URL) {
+        return null;
+      }
       const rawStats = await fetchHtml(GOOGLE_SCHOLAR_STATS_URL);
       return parseScholarMetrics(rawStats, profileUrl);
     } catch (statsError) {

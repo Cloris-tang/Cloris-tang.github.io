@@ -1,0 +1,34 @@
+type = "card"
+layout = "list"
+title = "Teaching"
+description = "Courses and teaching activities."
+
+[[items]]
+title = "Engineering Intelligent Buildings"
+subtitle = "Course Lecturer"
+date = "2026"
+content = "Course lecturer for Engineering Intelligent Buildings."
+
+[[items]]
+title = "Construction and Environmental Professionals in Society"
+subtitle = "Course Lecturer"
+date = "2025"
+content = "Course lecturer for Construction and Environmental Professionals in Society."
+
+[[items]]
+title = "Engineering Intelligent Buildings"
+subtitle = "Teaching Assistant"
+date = "2018-2025"
+content = "Teaching assistant for Engineering Intelligent Buildings."
+
+[[items]]
+title = "Advanced Energy Technologies and Analytics"
+subtitle = "Teaching Assistant"
+date = "2021-2025"
+content = "Teaching assistant for Advanced Energy Technologies and Analytics."
+
+[[items]]
+title = "Electrical Installations I and Laboratory Demonstrations"
+subtitle = "Laboratory Instructor"
+date = "2020-2021"
+content = "Laboratory instruction for Electrical Installations I, Validity of Lumen Method of Design, and Testing of Polyphase Induction Motors."

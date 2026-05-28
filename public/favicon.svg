@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-  <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
-  <style>
-    path { stroke: #000; }
-    @media (prefers-color-scheme: dark) {
-      path { stroke: #FFF; }
-    }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#1f6f78"/>
+  <path d="M15 18h7v11h20V18h7v28h-7V35H22v11h-7V18z" fill="#ffffff"/>
+  <path d="M29 46V24h-9v-6h25v6h-9v22h-7z" fill="#f6c85f" opacity="0.92"/>
 </svg>
