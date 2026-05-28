@@ -3,6 +3,27 @@ title = "Awards & Honors"
 description = "Selected awards, honors, scholarships, and presentation recognitions."
 
 [[items]]
+id = "highly-cited-paper-flexibility-categorization"
+title = "Highly Cited Paper Award"
+subtitle = "Flexibility categorization, sources, capabilities and technologies for energy-flexible and grid-responsive buildings: State-of-the-art and future perspective"
+content = "Recognized as an ESI Highly Cited Paper."
+tags = ["Paper Recognition"]
+
+[[items]]
+id = "highly-cited-paper-data-center-flexibility"
+title = "Highly Cited Paper Award"
+subtitle = "Unlocking the flexibilities of data centers for smart grid services: Optimal dispatch and design of energy storage systems under progressive loading"
+content = "Recognized as an ESI Highly Cited Paper."
+tags = ["Paper Recognition"]
+
+[[items]]
+id = "esi-hot-paper-data-center-flexibility"
+title = "ESI Hot Paper Award"
+subtitle = "Unlocking the flexibilities of data centers for smart grid services: Optimal dispatch and design of energy storage systems under progressive loading"
+content = "Recognized as an ESI Hot Paper."
+tags = ["Paper Recognition"]
+
+[[items]]
 id = "apcee-best-presentation"
 title = "Best Presentation Award"
 subtitle = "The 11th Asia Conference on Power and Electrical Engineering"
