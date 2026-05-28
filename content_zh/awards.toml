@@ -29,7 +29,7 @@ title = "最佳汇报奖"
 subtitle = "The 11th Asia Conference on Power and Electrical Engineering"
 date = "2026"
 content = "凭报告“Risk-aware optimization for resource aggregator in multi-layered markets”获奖，地点为中国澳门。"
-tags = ["会议奖励"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "asim-best-poster"
@@ -37,7 +37,7 @@ title = "最佳墙报奖"
 subtitle = "The 4th Asia Conference of International Building Performance Simulation Association"
 date = "2018"
 content = "凭墙报“Experimental Study on the Demand Shifting Effects of PCM Integrated Air-Conditioning Duct”获奖，地点为中国香港。"
-tags = ["会议奖励"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "postdoctoral-fellowship"
@@ -45,7 +45,7 @@ title = "博士后匹配基金计划"
 subtitle = "香港理工大学"
 date = "2023-2025"
 content = "博士后研究期间获得香港理工大学博士后匹配基金计划资助。"
-tags = ["奖学金"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "phd-studentship"
@@ -53,7 +53,7 @@ title = "博士奖学金"
 subtitle = "香港理工大学"
 date = "2018-2022"
 content = "博士研究期间获得香港理工大学博士奖学金。"
-tags = ["奖学金"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "tsinghua-creative-competition"
@@ -69,4 +69,4 @@ title = "Aedas科创二等奖学金"
 subtitle = "清华大学建筑学院"
 date = "2017"
 content = "获得清华大学建筑学院 Aedas 科创二等奖学金。"
-tags = ["奖学金"]
+tags = ["Academic Award"]

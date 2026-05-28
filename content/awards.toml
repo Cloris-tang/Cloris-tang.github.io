@@ -29,7 +29,7 @@ title = "Best Presentation Award"
 subtitle = "The 11th Asia Conference on Power and Electrical Engineering"
 date = "2026"
 content = "Awarded for the presentation \"Risk-aware optimization for resource aggregator in multi-layered markets\" in Macau, China."
-tags = ["Conference Award"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "asim-best-poster"
@@ -37,7 +37,7 @@ title = "Best Poster Award"
 subtitle = "The 4th Asia Conference of International Building Performance Simulation Association"
 date = "2018"
 content = "Awarded for the poster \"Experimental Study on the Demand Shifting Effects of PCM Integrated Air-Conditioning Duct\" in Hong Kong SAR."
-tags = ["Conference Award"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "postdoctoral-fellowship"
@@ -45,7 +45,7 @@ title = "Postdoc Matching Fund Scheme"
 subtitle = "The Hong Kong Polytechnic University"
 date = "2023-2025"
 content = "Awarded under The Hong Kong Polytechnic University's Postdoc Matching Fund Scheme."
-tags = ["Scholarship"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "phd-studentship"
@@ -53,7 +53,7 @@ title = "PhD Studentship"
 subtitle = "The Hong Kong Polytechnic University"
 date = "2018-2022"
 content = "Awarded during doctoral study at The Hong Kong Polytechnic University."
-tags = ["Scholarship"]
+tags = ["Academic Award"]
 
 [[items]]
 id = "tsinghua-creative-competition"
@@ -69,4 +69,4 @@ title = "Aedas Innovation Scholarship, Second Prize"
 subtitle = "School of Architecture, Tsinghua University"
 date = "2017"
 content = "Received the Aedas Innovation Scholarship second prize."
-tags = ["Scholarship"]
+tags = ["Academic Award"]
