@@ -1,4 +1,9 @@
 [[news]]
+date = "2026-06"
+tag = "Paper"
+content = "Paper accepted in Energy: \"Incremental online learning with model augmentation for AI-enabled optimization of building cooling systems.\""
+
+[[news]]
 date = "2026-05"
 tag = "Paper"
 content = "Paper accepted in Energy: \"Techno-economic analysis and life cycle design optimization of demand-side hybrid energy storage under different climates and electricity markets.\""
