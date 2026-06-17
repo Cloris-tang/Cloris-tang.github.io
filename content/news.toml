@@ -1,5 +1,10 @@
 [[news]]
 date = "2026-06"
+tag = "Talk"
+content = "Invited talk in Workshop \"Energy interaction between buildings and electric vehicles towards grid decarbonization\" at BAS 2026, HKUST, Hong Kong."
+
+[[news]]
+date = "2026-06"
 tag = "Paper"
 content = "Paper accepted in Energy: \"Incremental online learning with model augmentation for AI-enabled optimization of building cooling systems.\""
 

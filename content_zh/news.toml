@@ -1,5 +1,10 @@
 [[news]]
 date = "2026-06"
+tag = "报告"
+content = "在 BAS 2026 香港科技大学 Workshop “Energy interaction between buildings and electric vehicles towards grid decarbonization”作邀请报告，地点为中国香港。"
+
+[[news]]
+date = "2026-06"
 tag = "论文"
 content = "论文“Incremental online learning with model augmentation for AI-enabled optimization of building cooling systems”被 Energy 接收。"
 
