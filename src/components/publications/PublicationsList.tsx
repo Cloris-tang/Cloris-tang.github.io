@@ -38,7 +38,7 @@ const validAuthorshipFilters: AuthorshipFilter[] = ['first-author', 'correspondi
 const validQuartileFilters: QuartileFilter[] = ['Q1', 'Q2', 'Q3', 'Q4'];
 const validImpactFactorFilters: ImpactFactorFilter[] = ['lt-5', '5-10', 'gt-10'];
 
-const googleScholarStatsUrl = '';
+const googleScholarStatsUrl = 'https://raw.githubusercontent.com/Cloris-tang/Cloris-tang.github.io/google-scholar-stats/gs_data.json';
 
 const passiveTagClass = "inline-flex max-w-full items-center rounded-md border border-transparent bg-neutral-100 px-3 py-1 text-left text-xs font-medium leading-snug text-ui-body dark:border-white/15 dark:bg-white/15 dark:text-slate-50";
 

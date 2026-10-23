@@ -4,7 +4,7 @@ import path from 'node:path';
 import type { ScholarMetrics } from '@/types/page';
 
 export const GOOGLE_SCHOLAR_STATS_URL =
-  '';
+  'https://raw.githubusercontent.com/Cloris-tang/Cloris-tang.github.io/google-scholar-stats/gs_data.json';
 
 const metricsCache = new Map<string, Promise<ScholarMetrics | null>>();
 
